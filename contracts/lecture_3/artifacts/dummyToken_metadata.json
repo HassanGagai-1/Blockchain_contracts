@@ -140,11 +140,11 @@
 	},
 	"sources": {
 		"contracts/lecture_3/dummyToken.sol": {
-			"keccak256": "0xb25d6a9e2f03a404421055cae5f66f5b116c5676bf56024935e8d16999a00b4a",
+			"keccak256": "0x8246f99fb2c8082ef29c24bdf5360333a659d7a2cb238132e431fefae2a4857f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://551b5e10545fd02b3fe43f3ff144684e9c0411e894a4eceab81e22f2995c7f2a",
-				"dweb:/ipfs/QmQ8LVz52NYMXaZfasem7W8pzkTmqaXp4EzGzsBUn2Y162"
+				"bzz-raw://b08dc1e8e15844e0db77ab4534c1e435568b990580cbbf8dad3473db5cbdf5ee",
+				"dweb:/ipfs/Qmch2yRX4kzGSVpw6So74aYK46s8Xxxz1jen5qKUgVG9cA"
 			]
 		}
 	},
