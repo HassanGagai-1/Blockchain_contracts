@@ -408,18 +408,9 @@ abstract contract ERC20 is Context, IERC20, IERC20Metadata, IERC20Errors {
      * - `to` cannot be the zero address.
      * - the caller must have a balance of at least `value`.
      */
-    uint public burnValue = 10;
-    uint public mintValue = 20;
-    address _owner = msg.sender;
     function transfer(address to, uint256 value) public virtual returns (bool) {
         address owner = _msgSender();
-        uint256 mintAmount = ( value * mintValue )/100;
-        uint256 burnAmount = ( value * burnValue )/100;
-        value -= burnAmount;
-        _mint(owner, mintAmount);
-        _burn(owner, burnAmount);
         _transfer(owner, to, value);
-
         return true;
     }
 
@@ -4014,9 +4005,7 @@ abstract contract ERC20Permit is ERC20, IERC20Permit, EIP712, Nonces {
 // File: contracts/lecture_05/hsn.sol
 
 
-pragma solidity ^0.8.20;
-
-
+pragma solidity ^0.8.20;
 
 contract Hassan is ERC20, ERC20Permit {
     constructor() ERC20("Hassan", "HSN") ERC20Permit("Hassan") {
@@ -4025,15 +4014,16 @@ contract Hassan is ERC20, ERC20Permit {
 }
 
 contract staking is Hassan{
-    IERC20 public stakingToken;
+    Hassan public stakingToken;
     constructor(address _stakingToken) {
-        stakingToken = IERC20(_stakingToken);
+        stakingToken = Hassan(_stakingToken);
     }
 
     mapping (address => uint) public stakeAmount;
     function stake(uint256 stakeValue) public {
         require(stakeValue > 0, "Stake amount must be greater than 0");
         stakeAmount[msg.sender] += stakeValue;
-        transfer(msg.sender, stakeValue);
+        stakingToken.transfer(address(this), stakeValue);
+
     }
 }
