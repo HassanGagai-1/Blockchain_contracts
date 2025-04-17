@@ -7,7 +7,7 @@ contract lecture01
     
     int256 public a=5;
 
-
+uint public time=block.timestamp;
     function increment() public returns(int256) {
         return ++a;
     }

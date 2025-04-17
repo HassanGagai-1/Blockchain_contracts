@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.25+commit.b61c2a91"
 	},
 	"language": "Solidity",
 	"output": {
@@ -34,10 +34,10 @@
 	},
 	"sources": {
 		"contracts/lecture_05/hsn_flattened.sol": {
-			"keccak256": "0xdaa8cfdedb3c6732f55e83023e2d9d2da75a9aff52be9390f0e8968ad6d94a1e",
+			"keccak256": "0x649b46ec288a1b76dbba90b755e755c8943815468f68ae5ad2e24b5c27c64f87",
 			"urls": [
-				"bzz-raw://461a00c50d3a88e919752575f79a240f4b492250523167e6c8f3eb945ef9bbd3",
-				"dweb:/ipfs/QmZwmWehq7hZzDeC8KAF2wk2LuKskFMuKkgmTmqDSwsgMU"
+				"bzz-raw://46e6abbdc37918dc425c4548d1188a04c119dae2e058f3b0318cd430fb184382",
+				"dweb:/ipfs/QmPXxHFJvwsy8gnGErPJky1N6SrRzacYMpkXFfB2AiEAWG"
 			]
 		}
 	},

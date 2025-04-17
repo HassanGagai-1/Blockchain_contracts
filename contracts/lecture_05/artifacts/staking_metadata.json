@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.25+commit.b61c2a91"
 	},
 	"language": "Solidity",
 	"output": {
@@ -694,7 +694,7 @@
 					"details": "Returns the number of decimals used to get its user representation. For example, if `decimals` equals `2`, a balance of `505` tokens should be displayed to a user as `5.05` (`505 / 10 ** 2`). Tokens usually opt for a value of 18, imitating the relationship between Ether and Wei. This is the default value returned by this function, unless it's overridden. NOTE: This information is only used for _display_ purposes: it in no way affects any of the arithmetic of the contract, including {IERC20-balanceOf} and {IERC20-transfer}."
 				},
 				"eip712Domain()": {
-					"details": "See {IERC-5267}."
+					"details": "returns the fields and values that describe the domain separator used by this contract for EIP-712 signature."
 				},
 				"name()": {
 					"details": "Returns the name of the token."
@@ -823,11 +823,11 @@
 			]
 		},
 		"@openzeppelin/contracts/utils/ShortStrings.sol": {
-			"keccak256": "0x7d94fa0af099a2172eb01f9c8a8a443cbe7e0e43654841563e4e09968efdb549",
+			"keccak256": "0x1fcf8cceb1a67e6c8512267e780933c4a3f63ef44756e6c818fda79be51c8402",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://65e38fb76b6add407d4557753ae83dd1268e8261195dbe5c19a580d5ba6e4e9a",
-				"dweb:/ipfs/QmTkGSJtaQrqjcyWM4AgemeEmKgtDydKPPVRajsUJRQSrK"
+				"bzz-raw://617d7d57f6f9cd449068b4d23daf485676d083aae648e038d05eb3a13291de35",
+				"dweb:/ipfs/QmPADWPiGaSzZDFNpFEUx4ZPqhzPkYncBpHyTfAGcfsqzy"
 			]
 		},
 		"@openzeppelin/contracts/utils/StorageSlot.sol": {
@@ -855,11 +855,11 @@
 			]
 		},
 		"@openzeppelin/contracts/utils/cryptography/EIP712.sol": {
-			"keccak256": "0x10eb97d047f8d84fe263a02bb4a656ac6674f6679d74532cc37546289e073a9d",
+			"keccak256": "0x0c60057e7351874f086db8dc9291b7ada9ad62cb7725befd2991430d04a74572",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3e41287d40b0c46982f1083d40d32de2761f009c5c51627fe79a7feb0ab1cf5c",
-				"dweb:/ipfs/Qme7dbh6HX3ZvUJdbQAcVqXkmyXyfcLiUZRhhon3cU6K8p"
+				"bzz-raw://33cdfd1fc36410d45046f88ff9864350146b194736c32834baa38d99b843ffbe",
+				"dweb:/ipfs/QmdVmqgFKjgEBURy4KUwWDA6J1LEg1BKcHcXsx4nkeHAD2"
 			]
 		},
 		"@openzeppelin/contracts/utils/cryptography/MessageHashUtils.sol": {

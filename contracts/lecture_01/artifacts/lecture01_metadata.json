@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.25+commit.b61c2a91"
 	},
 	"language": "Solidity",
 	"output": {
@@ -143,6 +143,19 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "time",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -173,11 +186,11 @@
 	},
 	"sources": {
 		"contracts/lecture_01/basics.sol": {
-			"keccak256": "0x9d5ee50dbdab2b58bfd049e7e95c124a1518de49668f088480dc3217ac23d64e",
+			"keccak256": "0x5876d9dfc039ba8abbc8807a71518e328d0d2fd9bd11736f1859ef84bc061140",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://2b256609efeead7ad1bbd93df9a99ab43067131d31ae1c42c7c4a4f16e206e72",
-				"dweb:/ipfs/QmWx9xtJjBb3T9tdVroUev2fAc3uTLc2TMaLVB2mta2jbS"
+				"bzz-raw://ace9346a141bdfeba10fda5532e44d692e8c525ab41699287e88178119fdb8cb",
+				"dweb:/ipfs/QmS7SGJE1WkyjGfcqURDBSPxRsrjEpQDigUAcEALi87CYi"
 			]
 		}
 	},

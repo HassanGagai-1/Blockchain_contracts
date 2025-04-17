@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.25+commit.b61c2a91"
 	},
 	"language": "Solidity",
 	"output": {
@@ -125,7 +125,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/lecture_3/dummyToken.sol": "dummyToken"
+			"contracts/lecture_03/dummyToken.sol": "dummyToken"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -139,7 +139,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/lecture_3/dummyToken.sol": {
+		"contracts/lecture_03/dummyToken.sol": {
 			"keccak256": "0x8246f99fb2c8082ef29c24bdf5360333a659d7a2cb238132e431fefae2a4857f",
 			"license": "MIT",
 			"urls": [

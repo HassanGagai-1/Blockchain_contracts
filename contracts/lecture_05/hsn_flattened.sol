@@ -4005,7 +4005,9 @@ abstract contract ERC20Permit is ERC20, IERC20Permit, EIP712, Nonces {
 // File: contracts/lecture_05/hsn.sol
 
 
-pragma solidity ^0.8.20;
+pragma solidity ^0.8.20;
+
+
 
 contract Hassan is ERC20, ERC20Permit {
     constructor() ERC20("Hassan", "HSN") ERC20Permit("Hassan") {
