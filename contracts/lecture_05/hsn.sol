@@ -10,6 +10,7 @@ contract Hassan is ERC20, ERC20Permit {
     }
 }
 
+
 contract staking is Hassan{
     Hassan public stakingToken;
     constructor(address _stakingToken) {

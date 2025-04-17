@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.25+commit.b61c2a91"
+		"version": "0.8.29+commit.ab55807c"
 	},
 	"language": "Solidity",
 	"output": {
@@ -895,11 +895,11 @@
 			]
 		},
 		"contracts/lecture_05/hsn.sol": {
-			"keccak256": "0xeb87fa2bc36d85eef1926ef0f42077917fb102d086979762bec64ff93d759bac",
+			"keccak256": "0xba8b244acb933d73df96a1337c372383e1bc3e4b7b1513eac3bc85b8ef3a1631",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3a259c3acb348f66fab1ab18d48d3f81f2937c13a11e61cd8f1ada6485d1fbb0",
-				"dweb:/ipfs/QmVfEeLHZvAtzgupRBmEhmRez21xGucQBAQDrNVze1hR26"
+				"bzz-raw://de830c4005d0da06c92d5ed134ad9c51a2ace922fb419b8c61e696655b0c17c0",
+				"dweb:/ipfs/QmNiMPcubrCpSMjXaCqdHxN1QFUuqRRbbnzwk9GfiZJfvz"
 			]
 		}
 	},
